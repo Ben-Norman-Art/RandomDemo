@@ -49,9 +49,9 @@ function randomizer(){
   if (gods[0]){
     background(random(200, 255));
     randomIndex = int(random(gods.length));
-    //text(`${gods[randomIndex].name}'s God Weapon is the
-    //  ${gods[randomIndex].weapon}`, 50, 50);
-    text(gods[randomIndex].name + "'s God Weapon is the " + gods[randomIndex].weapon, 50, 50);
+    text(`${gods[randomIndex].name}'s God Weapon is the
+      ${gods[randomIndex].weapon}`, 50, 50);
+    // text(gods[randomIndex].name + "'s God Weapon is the " + gods[randomIndex].weapon, 50, 50);
     gods.splice(randomIndex, 1);
   } else {
     background(random(200, 255));
