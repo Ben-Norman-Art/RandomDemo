@@ -22,12 +22,14 @@ let gods = [{
   weapon: "Sword"
 }];
 
+let randomIndex;
+
 function setup() {
   createCanvas(600, 600);
   background(200);
 
-
-console.log(gods[int(random(gods.length))].name);
+randomIndex = int(random(gods.length))].
+console.log(gods[randomIndex].name);
 }
 
 function draw() {
