@@ -8,9 +8,14 @@ function setup(){
   console.log("Initial array is " + gods);
   console.log(gods);
 
+
   gods.pop();
+  console.log("Array after pop");
   console.log(gods);
 
+  gods.push("Thoth");
+  console.log("Array after push");
+  console.log(gods);
 
 }
 
