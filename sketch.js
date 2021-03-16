@@ -5,7 +5,7 @@ function setup(){
   createCanvas(600, 600);
   background(200);
 
-  console.log("Initial array is" + dogs);
+  console.log("Initial array is" + gods);
 
 
 
