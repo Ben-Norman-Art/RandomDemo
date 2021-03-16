@@ -5,8 +5,7 @@ function setup(){
   createCanvas(600, 600);
   background(200);
 
-  gods[1] = "Ra God of the Sun";
-  console.log(gods);
+  console.log("Initial array is" + dogs);
 
 
 
