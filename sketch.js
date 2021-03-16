@@ -9,12 +9,8 @@ function setup(){
   console.log(gods);
 
 
-  gods.shift();
-  console.log("Array after shift");
-  console.log(gods);
-
-  gods.unshift("Thoth");
-  console.log("Array after unshift");
+  gods.spliced(4, 4);
+  console.log("Array after spliced");
   console.log(gods);
 
 }
