@@ -29,6 +29,7 @@ function setup() {
   background(200);
   textSize(32);
 
+  text("Click to Randomize", 50, 50);
 }
 
 function draw() {
