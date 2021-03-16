@@ -30,10 +30,15 @@ function setup() {
   textSize(32);
 
   text("Click to Randomize", 50, 50);
+
+  setTimeout(changeBackground, 1000);
 }
 
 function draw() {
 
+}
+function changeBackground(){
+  background( random(255), random(255), random(255),));
 }
 
 function mousePressed() {
