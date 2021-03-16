@@ -28,7 +28,7 @@ function setup() {
   createCanvas(600, 600);
   background(200);
 
-randomIndex = int(random(gods.length))].
+randomIndex = int(random(gods.length));
 console.log(gods[randomIndex].name);
 }
 
