@@ -26,7 +26,7 @@ function setup() {
   createCanvas(600, 600);
   background(200);
 
-console.log(random(5));
+
 console.log(gods[int(random(5))]);
 }
 
