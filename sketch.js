@@ -38,7 +38,7 @@ function draw() {
 
 }
 function changeBackground(){
-  background( random(255), random(255), random(255),));
+  background(random(255), random(255), random(255),);
 }
 
 function mousePressed() {
