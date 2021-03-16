@@ -26,8 +26,8 @@ function setup() {
   createCanvas(600, 600);
   background(200);
 
-console.log(gods[2].weapon);
-
+console.log(random(5));
+console.log(gods[random(5)]);
 }
 
 function draw() {
