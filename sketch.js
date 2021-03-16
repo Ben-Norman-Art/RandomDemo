@@ -6,7 +6,7 @@ function setup(){
   background(200);
 
   console.log("Initial array is " + gods);
-
+  console.log(gods);
 
 
 }
