@@ -36,7 +36,7 @@ function draw() {
 }
 
 function mousePressed() {
-  background(random(255));
+  background(random(200, 255));
   randomIndex = int(random(gods.length));
   text(gods[randomIndex].name, 50, 50);
   gods.splice(randomIndex, 1);
