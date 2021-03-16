@@ -1,17 +1,20 @@
 //random Egyptian God
-let gods = ["Anubis", "Ra", "Bastet", "Thoth", "Osiris", "Set", "Horus", "Isis"]
+let gods = [{
+  name: "Anubis",
+  weapon: "Flail"
+}, {
+  name: "Ra",
+  weapon: "Spear of Ra"
+}, {
+  name: "Bastet",
+  weapon: "Sistrum"
+}];
 
-function setup(){
+function setup() {
   createCanvas(600, 600);
   background(200);
 
-  console.log("Initial array is " + gods);
-  console.log(gods);
-
-
-  gods.splice(5, 1);
-  console.log("Array after splice");
-  console.log(gods);
+console.log(gods[0]);
 
 }
 
