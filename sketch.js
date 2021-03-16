@@ -5,7 +5,8 @@ function setup(){
   createCanvas(600, 600);
   background(200);
 
-  console.log(gods.length);
+  gods[1] = "Ra God of the Sun";
+  console.log(gods);
 
 
 
