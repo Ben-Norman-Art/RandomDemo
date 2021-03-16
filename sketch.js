@@ -8,6 +8,9 @@ function setup(){
   console.log("Initial array is " + gods);
   console.log(gods);
 
+  gods.pop();
+  console.log(gods);
+
 
 }
 
