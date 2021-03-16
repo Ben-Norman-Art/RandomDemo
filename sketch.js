@@ -29,7 +29,10 @@ function setup() {
   background(200);
 
 randomIndex = int(random(gods.length));
+
 console.log(gods[randomIndex].name);
+text(gods[randomIndex].name, 50, 50);
+
 }
 
 function draw() {
