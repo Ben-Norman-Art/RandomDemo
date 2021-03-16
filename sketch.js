@@ -27,7 +27,7 @@ function setup() {
   background(200);
 
 console.log(random(5));
-console.log(gods[random(5)]);
+console.log(gods[int(random(5))]);
 }
 
 function draw() {
