@@ -9,8 +9,8 @@ function setup(){
   console.log(gods);
 
 
-  gods.spliced(4, 4);
-  console.log("Array after spliced");
+  gods.splice(4, 4);
+  console.log("Array after splice");
   console.log(gods);
 
 }
