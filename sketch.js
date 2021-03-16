@@ -9,7 +9,7 @@ function setup(){
   console.log(gods);
 
 
-  gods.splice(4, 4);
+  gods.splice(5, 1);
   console.log("Array after splice");
   console.log(gods);
 
