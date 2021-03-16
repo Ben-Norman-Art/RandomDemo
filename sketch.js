@@ -43,6 +43,7 @@ if (gods[0]){
   text(gods[randomIndex].name, 50, 50);
   gods.splice(randomIndex, 1);
 } else {
+  background(random(200, 255));
   text("Nothing left!", 50, 50);
 }
 }
