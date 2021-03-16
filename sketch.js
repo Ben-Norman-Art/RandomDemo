@@ -9,12 +9,12 @@ function setup(){
   console.log(gods);
 
 
-  gods.pop();
-  console.log("Array after pop");
+  gods.shift();
+  console.log("Array after shift");
   console.log(gods);
 
-  gods.push("Thoth");
-  console.log("Array after push");
+  gods.unshift("Thoth");
+  console.log("Array after unshift");
   console.log(gods);
 
 }
