@@ -23,6 +23,7 @@ let gods = [{
 }];
 
 let randomIndex;
+let animating = false;
 
 function setup() {
   createCanvas(600, 600);
@@ -31,25 +32,36 @@ function setup() {
 
   text("Click to Randomize", 50, 50);
 
-  setTimeout(changeBackground, 1000);
 }
 
 function draw() {
 
+
+  if(animating == true){
+      ellipse(random(width), random(height), random(50, 200));
+
+  }
 }
-function changeBackground(){
-  background(random(255), random(255), random(255),);
+
+function randomizer(){
+  animating = false;
+
+  if (gods[0]){
+    background(random(200, 255));
+    randomIndex = int(random(gods.length));
+    text(`${gods[randomIndex].name}'s God Weapon is the
+      ${gods[randomIndex].weapon}`, 50, 50);
+    //text(gods[randomIndex].name + "'s God Weapon is the " + gods[randomIndex].weapon, 50, 50);
+    gods.splice(randomIndex, 1);
+  } else {
+    background(random(200, 255));
+    text("Nothing left!", 50, 50);
+  }
 }
 
 function mousePressed() {
+  animating = true;
+  setTimeout(randomizer, 2000);
 
-if (gods[0]){
-  background(random(200, 255));
-  randomIndex = int(random(gods.length));
-  text(gods[randomIndex].name, 50, 50);
-  gods.splice(randomIndex, 1);
-} else {
-  background(random(200, 255));
-  text("Nothing left!", 50, 50);
-}
+
 }
