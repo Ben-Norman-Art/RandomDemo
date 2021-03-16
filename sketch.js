@@ -5,7 +5,9 @@ function setup(){
   createCanvas(600, 600);
   background(200);
 
-  console.log(gods[0]);
+  console.log(gods.length);
+
+
 
 }
 
