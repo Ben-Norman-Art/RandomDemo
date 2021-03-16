@@ -8,6 +8,18 @@ let gods = [{
 }, {
   name: "Bastet",
   weapon: "Sistrum"
+}, {
+  name: "Thoth",
+  weapon: "Book of Thoth"
+}, {
+  name: "Osiris",
+  weapon: "Crook"
+}, {
+  name: "Horus",
+  weapon: "Spear of Horus"
+}, {
+  name: "Set",
+  weapon: "Sword"
 }];
 
 function setup() {
