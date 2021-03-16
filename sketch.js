@@ -27,7 +27,7 @@ function setup() {
   background(200);
 
 
-console.log(gods[int(random(gods.length))]);
+console.log(gods[int(random(gods.length))].name);
 }
 
 function draw() {
