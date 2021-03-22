@@ -51,7 +51,7 @@ let button;
 function preload() {
 
   for (let i = 0; i <= 9; i++) {
-    egyptian[i] = loadImage("assets/egyptian_" + i + ".PNG")
+    egyptian[i] = loadImage("assets/egyptian_" + i + ".png")
   }
 }
 
