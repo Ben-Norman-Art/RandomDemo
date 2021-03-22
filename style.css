@@ -4,15 +4,26 @@ html, body {
 }
 canvas {
   display: block;
+  background-color: black;
 }
 canvas {
+  padding: 20px;
   margin: auto;
   display: block;
-  padding: 20px;
+  border-style: dashed;
+  border-color: #f7d29e;
 }
 
 button {
   margin: auto;
   display: block;
+}
 
+.randomizerButton {
+  padding: 20px;
+  background-color: #f7d29e;
+
+}
+.font {
+  textFont: egyptian_nights_font
 }
