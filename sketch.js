@@ -1,4 +1,4 @@
-//random Egyptian God
+
 let gods = [{
   name: "Anubis",
   weapon: "Flail"
