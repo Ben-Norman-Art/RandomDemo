@@ -45,7 +45,15 @@ let gods = [{
 
 let randomIndex;
 let animating = false;
+let egyptian = [];
 let button;
+
+function preload(){
+
+  for (let i = 0; i <= 13; i++)
+  egyptian[1] = loadImage(`Assets/Egyptian_${i}.JPG`)
+
+}
 
 function setup() {
   var canvas = createCanvas(550, 550);
@@ -57,6 +65,7 @@ function setup() {
   textSize(32);
 
   text("Learn About the Egyptian Gods", 50, 50);
+  console.log(egyptian);
 
 }
 
